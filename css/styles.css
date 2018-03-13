@@ -7,17 +7,17 @@ h1 {
   text-align: center;
 }
 
-ul {
+ul#homepage {
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
 }
 
-li {
+li#homepage {
   float: left;
 }
 
-li a {
+li#homepage a {
   display: block;
   color: white;
   text-align: center;
@@ -25,12 +25,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li#homepage a:hover {
   background-color: #555;
   color: white;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #d1531d;
 }
